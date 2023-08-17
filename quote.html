@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+<h1 class="text-cyan-950 text-center text-5xl mt-10 mb-8"><span class="text-violet-500"> Random Hadith</span> Generator</h1>
+<div class="card w-96 bg-base-100 shadow-2xl mx-auto">
+    <div class="card-body">
+      <h2 class="card-title text-slate-500">Hadith</h2>
+      <p id="p-quote" >The Prophet (ﷺ) would never find fault with food. If he desired it, he would eat. If he disliked it, he would leave it.</p>
+      <p id="p-Person" class="text-red-500">(Bukhari and Muslim)</p>
+      <div class="card-actions justify-end">
+        <button id="btn-gen" class="btn btn-primary text-white">Generate</button>
+      </div>
+    </div>
+  </div>
+<script src="./js/quote.js"></script>
+</body>
+</html>
